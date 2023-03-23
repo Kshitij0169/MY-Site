@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px 10px;
+    font-family: 'Aboreto', 'Times New Roman', serif;
+    font-size: larger;
+    padding: 15px;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+
+nav ul li a {
+    color: rgb(174, 169, 169);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: 0.7s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.3);
+}
+
+.mainpage {
+    height: 500px;
+   background-image: url(images/background_1.gif);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+}
+
+.details {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    align-content: center;
+    margin-top: 24%;
+    margin-bottom: 10%;
+    margin-left: 42%;
+    margin-right: 25%;
+    opacity: 0.8;
+    transition: 0.7s ease;
+}
+
+.details:hover{
+    transform: scale(1.2);
+    opacity: 1.0;
+}
+
+.details h1 {
+    float: left;
+    padding: 30px;
+    color: black;
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', 'Times New Roman', serif;
+}
+
+span {
+    color: rgb(220, 11, 11);
+}
+
+.details p {
+    color: rgb(42, 39, 3);
+    font-size: 25px;
+    font-family: 'Comfortaa', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.resume {
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa', 'Times New Roman', Times, serif;
+    background-color: rgb(211, 22, 22);
+    color: rgb(251, 251, 251);
+    border-radius: 60px;
+    transition: 1.6s ease;
+}
+
+.resume:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.aboutpage {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+    color: rgb(211, 22, 22);
+    text-align: center;
+    font-family: 'Forum', 'Times New Roman', serif;
+}
+
+#about {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2px;
+    transition: 0.7s ease;
+}
+
+.about h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+#para {
+    font-family: 'Forum', 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 17px;
+
+}
+
+.skills ul li {
+    font-size: large;
+    line-height: 30px;
+    margin-left: 22%;
+    text-align: justify;
+    margin-right: 23%;
+}
+
+.skills ul li span {
+    color: rgb(211, 22, 22);
+    font-weight: bolder;
+}
+
+.skills ul li p {
+    color: rgb(2, 2, 2);
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.educationpage {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+    color: rgb(211, 22, 22);
+    text-align: center;
+    font-family: 'Forum', 'Times New Roman', serif;
+    font-size: large;
+    padding-top: 50px;
+}
+
+.edu h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.college1 {
+    border-radius: 25px;
+    background-color: white;
+    width: 40%;
+    padding: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 0.7s ease;
+}
+
+.college2 {
+    border-radius: 25px;
+    background-color: white;
+    width: 40%;
+    padding: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 0.7s ease;
+}
+
+.college1:hover {
+    transform: scale(1.2);
+    background-color: #000000;
+    color: white;
+}
+
+.college2:hover {
+    transform: scale(1.2);
+    background-color: #000000;
+    color: white;
+    
+}
+
+.colleges h2 {
+    font-size: 20px;
+}
+
+.colleges p {
+    color: black;
+    font-size: medium;
+}
+
+.colleges p span {
+    color: rgb(211, 22, 22);
+    font-weight: bolder;
+}
+
+.experiencepage {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+    color: rgb(211, 22, 22);
+    text-align: center;
+    font-family: 'Forum', 'Times New Roman', serif;
+}
+
+.exp_det h2 {
+    color: rgb(211, 22, 22);
+    font-weight: bolder;
+}
+
+.exp {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+    transition: 0.7s ease;
+    overflow: auto;
+}
+
+.exp h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+}
+
+.logo_comp {
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 8px;
+}
+
+.details_exp {
+    margin-left: 2%;
+}
+
+.exp_det h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 1%;
+    width: 80%;
+}
+
+.details_exp ul li {
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.last {
+    background-color: white;
+    color: rgb(211, 22, 22);
+    text-align: center;
+    font-family: 'Comfortaa', 'Times New Roman', serif;
+    padding-top: 20px;
+}
+
+.detailstoconnect {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 3%;
+}
+
+.contactpage {
+    background-color: rgb(0, 0, 0);
+    padding: 40px 0;
+    color: rgb(211, 22, 22);
+    text-align: center;
+    font-family: 'Comfortaa', 'Times New Roman', serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactpage h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.phone {
+    border-radius: 25px;
+    background-color: white;
+    width: 23%;
+    padding: 25px;
+    transition: 0.7s ease;
+}
+
+.mail {
+    border-radius: 25px;
+    background-color: white;
+    width: 23%;
+    padding: 25px;
+    margin-left: 3%;
+    transition: 0.7s ease;
+}
+
+.phone:hover {
+    transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: #000000;
+    color: white;
+}
+
+.mail:hover {
+    transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: #000000;
+    color: white;
+}
+
+.certificationspage {
+    background-color: rgb(0, 0, 0);
+    padding: 70px 0;
+    color: rgb(211, 22, 22);
+    text-align: center;
+    font-family: 'Forum', 'Times New Roman', serif;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.certificationspage h1 {
+    text-decoration-line: underline;
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.certificate1 {
+    border-radius: 25px;
+    background-color: white;
+    width: 15%;
+    padding: 25px;
+    transition: 0.7s ease;
+}
+
+.certificate2 {
+    border-radius: 25px;
+    background-color: white;
+    width: 15%;
+    padding: 25px;
+    margin-left: 3%;
+    transition: 0.7s ease;
+}
+
+.certificate1:hover {
+    transform: scale(1.2);
+    background-color: #000000;
+}
+
+.certificate2:hover {
+    transform: scale(1.2);
+    background-color: #000000;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.input {
+    padding: 10px 120px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+#message {
+    width: 25%;
+    padding: 10px;
+}
+
+#submit {
+    padding: 10px;
+    width: 10%;
+    border-radius: 50px;
+    transition: 0.7s ease;
+}
+
+#submit:hover {
+    transform: scale(1.2);
+    background-color: #000000;
+    color: white;
+}
+
+.contact a{
+    color: rgb(211, 22, 22);
+}
+
+@media (max-width: 365px) {
+    nav ul li {
+        padding: 0;
+    }
+
+    .mainpage {
+        background-image: url(images/background_1.gif);
+        height: 500px;
+        display: flex;
+        background-size: cover;
+    }
+
+    details {
+        text-align: center;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        align-content: center;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 25%;
+        opacity: 0.8;
+        transition: 0.7s ease;
+    }
+
+    .details h1 {
+        margin-top: 10%;
+        color: black;
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-family: 'Comfortaa', 'Times New Roman', serif;
+    }
+
+    .college1 {
+        width: 40%;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .college2 {
+        width: 40%;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    #submit {
+        padding-right: 50px;
+        width: 10%;
+    }
+
+    .input {
+        padding: 10px 20px;
+    }
+
+    .det h2 {
+        font-size: 8px
+    }
+
+    .logo_comp {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .exp_det h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+        overflow: auto;
+        margin-left: 11%;
+        padding-right: 50px;
+    }
+
+    .certificate img {
+        width: 60px;
+    }
+
+}
+
+@media (max-width:768px)  {
+    nav ul li {
+        padding: 0;
+    }
+
+    .mainpage {
+        background-image: url(images/background_1.gif);
+        height: 500px;
+        display: flex;
+        background-size: cover;
+    }
+
+    details {
+        text-align: center;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        align-content: center;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 25%;
+        opacity: 0.8;
+        transition: 0.7s ease;
+    }
+
+    .details h1 {
+        margin-top: 10%;
+        color: black;
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-family: 'Comfortaa', 'Times New Roman', serif;
+    }
+
+    .college1 {
+        width: 40%;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .college2 {
+        width: 40%;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    #submit {
+        padding-right: 50px;
+        width: 10%;
+    }
+
+    .input {
+        padding: 10px 20px;
+    }
+
+    .det h2 {
+        font-size: 8px
+    }
+
+    .logo_comp {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .exp_det h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+        overflow: auto;
+        margin-left: 11%;
+        padding-right: 50px;
+    }
+
+    .certificate img {
+        width: 60px;
+    }
+
+}
+
