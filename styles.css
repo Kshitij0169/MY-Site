@@ -37,7 +37,7 @@ nav ul li a:hover {
 
 .mainpage {
     height: 500px;
-   background-image: url(images/background_1.gif);
+   background-image: url(images/background_1.jpeg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -117,6 +117,12 @@ span {
     margin-right: 15%;
     padding: 2px;
     transition: 0.7s ease;
+}
+
+#about:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: white;
 }
 
 .about h1 {
@@ -226,11 +232,30 @@ span {
     color: rgb(211, 22, 22);
     text-align: center;
     font-family: 'Forum', 'Times New Roman', serif;
+    transition: 0.7s ease;
+}
+
+#experiencepage:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: white;
+    transition: 0.7s ease;
+}
+
+#details_exp {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2px;
+    transition: 0.7s ease;
 }
 
 .exp_det h2 {
     color: rgb(211, 22, 22);
     font-weight: bolder;
+    margin-left: 100px;
 }
 
 .exp {
